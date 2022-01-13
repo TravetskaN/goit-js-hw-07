@@ -24,6 +24,10 @@ function onPictureClick(event) {
 `);
 
   instance.show();
+  window.addEventListener("keydown", onEscKeyPress);
+  function onEscKeyPress() {
+    instance.close();
+  }
 }
 
 console.log(galleryItems);

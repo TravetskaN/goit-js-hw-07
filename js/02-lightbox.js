@@ -23,7 +23,6 @@ function onPictureClick(event) {
   if (event.target.nodeName !== "IMG") {
     return;
   }
-
   lightbox();
 }
 
