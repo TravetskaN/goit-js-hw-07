@@ -42,3 +42,7 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+img {
+  width: 100%;
+  height: 100%;
+}
